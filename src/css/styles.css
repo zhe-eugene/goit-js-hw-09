@@ -10,10 +10,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
-  line-height: 1.5;
-  max-width: 1128px;
-  margin: 0 auto;
-
 }
 
 ul {
@@ -33,6 +29,7 @@ h6 {
 }
 
 a {
+  font-size: 35px;
   text-decoration: none;
 }
 
@@ -40,6 +37,12 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  line-height: 1.5;
+  max-width: 1128px;
+  margin: 0 auto;
 }
 
 .gallery {
@@ -53,4 +56,10 @@ img {
 
 .gallery-item {
   width: calc((100% - 2 * 24px) / 3);
+}
+
+
+.back-link {
+  display: block;
+  margin-top: 30px;
 }

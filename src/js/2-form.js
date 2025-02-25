@@ -20,7 +20,6 @@ feedbackForm.addEventListener('submit', event => {
   event.preventDefault();
 
   const isEmpty = !formData.email || !formData.message;
-  console.log(isEmpty);
 
   if (isEmpty) {
     alert('Fill please all fields!');
